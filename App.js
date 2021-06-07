@@ -22,9 +22,9 @@ export default function App() {
            fontWeight: "bold"
          }}>Column</Text>
 
-       <View style={styles.anotherbox}>Child</View>
-       <View style={styles.anotherbox}>Child</View>
-       <View style={styles.anotherbox}>Child</View>
+       <View style={styles.anotherbox}><text>Child</text></View>
+       <View style={styles.anotherbox}><text>Child</text></View>
+       <View style={styles.anotherbox}><text>Child</text></View>
      </View>
      <View style={bottom.container}>
        <Text style={{
@@ -33,9 +33,9 @@ export default function App() {
         fontWeight: "bold",
         margin: 5
        }}>Row</Text>
-       <View style={bottom.boxInside}>Child</View>
-       <View style={bottom.boxInside}>Child</View>
-       <View style={bottom.boxInside}>Child</View> 
+       <View style={bottom.boxInside}><text>Child</text></View>
+       <View style={bottom.boxInside}><text>Child</text></View>
+       <View style={bottom.boxInside}><text>Child</text></View> 
        </View>
     </View>       
   );

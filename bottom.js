@@ -28,7 +28,7 @@ export default StyleSheet.create({
     borderColor: "white",
   },
 
-//** this is the bottom box, code works without it though?? */
+
 bottombox: {
     width: 400,
     height: 700,
