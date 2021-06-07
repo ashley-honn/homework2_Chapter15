@@ -11,16 +11,16 @@ export default function App() {
         fontSize: 20,
         color: "white",
         textDecoration: "underline",
-        margin: 20,
+        margin: 15,
         fontWeight: "bold"
-       }}>This is homework 2! By: Ashley Honn</Text>
+       }}></Text><text>This is homework 2! By: Ashley Honn</text>
 
        <View style={styles.box}>
          <Text style={{
            fontSize: 20,
            color: "black",
            fontWeight: "bold"
-         }}>Column</Text>
+         }}><text>Column</text></Text>
 
        <View style={styles.anotherbox}><text>Child</text></View>
        <View style={styles.anotherbox}><text>Child</text></View>
@@ -32,7 +32,7 @@ export default function App() {
          color: "black",
         fontWeight: "bold",
         margin: 5
-       }}>Row</Text>
+       }}><text>Row</text></Text>
        <View style={bottom.boxInside}><text>Child</text></View>
        <View style={bottom.boxInside}><text>Child</text></View>
        <View style={bottom.boxInside}><text>Child</text></View> 
