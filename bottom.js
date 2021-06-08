@@ -2,11 +2,11 @@ import { Platform, StyleSheet, StatusBar } from "react-native";
 
 export default StyleSheet.create({
   container: {
-    flex: 2,
+    flex: 1,
     flexDirection: "row",
     backgroundColor: "pink",
     alignItems: "center",
-    justifyContent: "space-around",
+    justifyContent: "flex-start",
     borderWidth: 10,
     borderStyle: "solid",
     borderColor: "yellow",
@@ -28,10 +28,9 @@ export default StyleSheet.create({
     borderColor: "white",
   },
 
-
-bottombox: {
+  bottombox: {
     width: 400,
-    height: 700,
+    height: 600,
     justifyContent: "center",
     alignItems: "flex-start",
     backgroundColor: "hotpink",

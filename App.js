@@ -13,18 +13,18 @@ export default function App() {
         textDecoration: "underline",
         margin: 15,
         fontWeight: "bold"
-       }}></Text><text>This is homework 2! By: Ashley Honn</text>
+       }}></Text><Text>This is homework 2! By: Ashley Honn</Text>
 
        <View style={styles.box}>
          <Text style={{
            fontSize: 20,
            color: "black",
            fontWeight: "bold"
-         }}><text>Column</text></Text>
+         }}><Text>Column</Text></Text>
 
-       <View style={styles.anotherbox}><text>Child</text></View>
-       <View style={styles.anotherbox}><text>Child</text></View>
-       <View style={styles.anotherbox}><text>Child</text></View>
+       <View style={styles.anotherbox}><Text>Child</Text></View>
+       <View style={styles.anotherbox}><Text>Child</Text></View>
+       <View style={styles.anotherbox}><Text>Child</Text></View>
      </View>
      <View style={bottom.container}>
        <Text style={{
@@ -32,10 +32,10 @@ export default function App() {
          color: "black",
         fontWeight: "bold",
         margin: 5
-       }}><text>Row</text></Text>
-       <View style={bottom.boxInside}><text>Child</text></View>
-       <View style={bottom.boxInside}><text>Child</text></View>
-       <View style={bottom.boxInside}><text>Child</text></View> 
+       }}><Text>Row</Text></Text>
+       <View style={bottom.boxInside}><Text>Child</Text></View>
+       <View style={bottom.boxInside}><Text>Child</Text></View>
+       <View style={bottom.boxInside}><Text>Child</Text></View> 
        </View>
     </View>       
   );
